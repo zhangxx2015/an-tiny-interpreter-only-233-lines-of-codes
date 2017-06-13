@@ -4,6 +4,8 @@ using System.Linq;
 using System.Xml;
 namespace XML_based_interpreter {
     /// <summary>
+    /// XML based program interpreter by QQ:20437023
+    /// MIT License Copyright (c) 2017 zhangxx2015
     /// 一个基于XML词法分析实现的微小的解释器, 仅 233 行代码, 
     /// 实现了:
     ///     变量定义(var),
@@ -84,9 +86,6 @@ namespace XML_based_interpreter {
             }[arithmeticTypes](vars.ContainsKey(v1) ? vars.Get(v1) : ParseValue(v1), vars.ContainsKey(v2) ? vars.Get(v2) : ParseValue(v2));
         }
     }
-    /// <summary>
-    /// XML based program interpreter by QQ:20437023, MIT License Copyright (c) 2017 zhangxx2015
-    /// </summary>
     public class Interpreter {
         public readonly Dictionary<string, object> Vars = new Dictionary<string, object>();
         public readonly Dictionary<string, string> Func = new Dictionary<string, string>();
