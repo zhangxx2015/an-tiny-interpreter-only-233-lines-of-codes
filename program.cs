@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml;
 namespace XML_based_interpreter {
     /// <summary>
-    /// XML based program interpreter by QQ:20437023
+    /// XML based program interpreter by QQ:20437023 liaisonme@hotmail.com
     /// MIT License Copyright (c) 2017 zhangxx2015
     /// 一个基于XML词法分析实现的微小的解释器, 仅 233 行代码, 
     /// 实现了:
